@@ -29,7 +29,7 @@ Changes from Qualcomm Technologies, Inc. are provided under the following licens
 Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
 SPDX-License-Identifier: BSD-3-Clause-Clear
 -->
-<manifest version="1.0" type="device" target-level="202504">
+<manifest version="1.0" type="device" target-level="202604">
    <!-- display
     <hal format="aidl">
         <name>android.hardware.gatekeeper</name>

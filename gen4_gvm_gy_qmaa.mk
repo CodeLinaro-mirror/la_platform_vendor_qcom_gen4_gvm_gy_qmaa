@@ -37,5 +37,7 @@ TARGET_DISABLE_DISPLAY_DLKM := true
 #$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr:
 #	mkdir -p $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
+DEVICE_MANIFEST_FILE := device/qcom/gen4_gvm_gy_qmaa/manifest.xml
+
 $(call inherit-product-if-exists, vendor/qcom/defs/product-defs/system/*.mk)
 $(call inherit-product-if-exists, vendor/qcom/defs/product-defs/vendor/*.mk)
